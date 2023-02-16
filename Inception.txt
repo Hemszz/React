@@ -1,0 +1,46 @@
+1. What is Emmet?
+Ans: Emmet is a free add-on for your text editor that allows you to type shortcuts that are then expanede into fill pieces of code.
+
+2. Difference between Library and Framework
+Ans: https://www.interviewbit.com/blog/framework-vs-library/
+
+Library provides developers with predefined functions and classes to make work easier.
+Framework contains multiple libraries.
+
+3. What is CDN and why do we use it?
+Ans: Content Delivery Network refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content.
+
+Use: A CDN allows for the quick transfer of assets neede for loading internet content including HTML files, CSS files, JS files, Images and videos.
+
+4. Why is React known as React?
+Ans: Because of its ability to react to changes in data.
+
+5. What is crossorigin in script tag?
+Ans: A cross-origin request is a request for a resource from another domain.
+
+The crossorigin attribute is valid on <audio>, <video>, <img>, <script> and <link> elements.
+
+<script src="https://example.com/example-framework.js" crossorigin="anonymous"></script> tells a browser to execute the link "https://example.com/example-framework.js" without sendin the user credentials
+
+<link rel="manifest" href="/app.manifest" crossorigin="use-credentials" />
+
+6. What is manifest file?
+Ans: The web app manifest is a JSON file that tells the browser about your web app and how it should behave when installed on the users desktop or mobile device. A typical manifest file includes the app name, the icons the app should use and the URL that shoukd be opened when the app is launched.
+    The manifest file can be saved as .json or .manifest easier for developers to understand.
+
+7. What is difference between React an ReactDOM?
+Ans: React is a JS library desined for building better user interfaces.
+
+ReactDOM is a complementary library to React which glues React to the browser DOM.
+
+In a nutshell, whenever we use component, classes, elements etc, we're using React and whenever we use methods like render() or findDOMNode() we're using React-DOM.
+
+8. What is the difference between react.development.js and react.production.js files ia CDN?
+Ans: Production.js is a minified version of the development.js
+
+9. What is async and defer?
+Ans: async and defer attributes help to reduce delays when executing code in the script tag. These elements are essential in improving the web page performance.
+
+If async, the script is downloaded in parallel to parsing the page and executed as soon as it is available(before parsing completes).
+
+If defer, the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing.
